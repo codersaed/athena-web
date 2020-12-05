@@ -1,3 +1,120 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+.container{
+    background-image: url('https://ibb.co/sqfYjYm');
+    background-size:cover;
+}
+#contact{
+background-image: linear-gradient(to bottom ,#1CD9B6 0% ,#224FC9 100%);
+  width: 104px;
+  height: 43px;
+  border-radius: 20px 0px 20px 0px;
+  padding: 10px 0px 0px 10px;
+  color: white;
+  font-size: 16px;
+  line-height: 19px;
+  }
+  #contact:hover{
+  background: #3260DE; 
+}
+#header{
+    
+    margin-top: 110px;
+
+}
+.font-style{
+    font-family: 'Lucida Sans';
+    font-size: 90px;
+}
+.design {
+    align-items: center;
+    margin-top: 110px;
+}
+
+#books .card{
+    border: none;
+    background-color: #F8FFFB;
+    border-radius: 10px;
+   
+}
+#books .card img{
+    height: 83px;
+    width: 80px;
+    margin: 0 auto;
+    margin-top: 25%;
+}
+#books .card-body{
+    text-align: center;
+   
+}
+#books .card:hover{
+    background-color: #fff;
+    box-shadow:  0px 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius:60px 0px 60px 0px;
+    
+    
+}
+.font-style2{
+    font-family: 'Bookman';
+    font-size: 40px;
+    text-align: center;
+}
+.card-text{
+    font-size: 12px;
+    color: gray;
+}
+.font-style3{
+    font-family: 'Bookman'; 
+    font-size: 40px;
+}
+.top{
+    margin-top: 50px;
+}
+.font-style4{
+     
+    font-size: 15px;
+}
+.top1{
+    margin-top: 180px;
+}
+.space{
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.happy{
+   
+    width: 150px;
+    height: 150px;
+    
+    padding: 10px 0px 0px 10px;
+    color: black;
+    font-size: 16px;
+    line-height: 19px;
+}
+.happy:hover{
+    background-image: linear-gradient(to bottom ,#1CD9B6 0% ,#224FC9 100%);
+    border-radius: 20px 0px 20px 0px;
+    color: white;
+}
+@media 
+  (-webkit-min-device-pixel-ratio: 2), 
+  (min-resolution: 192dpi){
+#cat{
+    border: none;
+    /* box-shadow: 5px 5px 10px grey; */
+    border-radius: 20px 5px 20px 5px;
+    padding: 20px 10px;
+    margin: 60px 0px;
+}
+}
+.surface{
+    margin-top:70px
+}
 /* Product Section  */
 .card-design {
     box-shadow: 5px 5px 7px gainsboro;
@@ -49,4 +166,14 @@
     border-radius: 50%;
     font-size: 10px;
     color: #fff;
+}
+.happy1{
+    background-image: linear-gradient(to bottom ,#1CD9B6 0% ,#224FC9 100%);
+    width: 150px;
+    height: 150px;
+  border-radius: 20px 0px 20px 0px;
+  padding: 10px 0px 0px 10px;
+  color: white;
+  font-size: 16px;
+  line-height: 19px;
 }
